@@ -1,0 +1,29 @@
+.title_area h1{
+font-size: 90px;
+margin-left: 20%;
+color: white;
+}
+span{
+color: #ffd11a;
+
+}
+
+.maintitle{
+text-align: center;
+color: #ffd11a;
+font-size: 70px;
+margin-top: 70px;
+margin-bottom: 0px;
+}
+
+.new{
+color: #ffd11a;
+
+}
+
+.new h1{
+font-style: italic;
+font-size: 162px;
+opacity: 0.7;
+
+}
