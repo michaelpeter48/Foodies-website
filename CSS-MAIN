@@ -1,0 +1,263 @@
+@import  "fonts.css";
+@import  "img.css";
+*{
+margin: 0;
+height: 100%;
+}
+
+body{
+
+width: 100%;
+}
+
+header {
+
+}
+
+.title_area{
+background-color: #999900;
+height: 20%;
+padding-top:20px;
+}
+
+
+
+.head-img{
+background-image:url("../images/blur-close-up-cuisine-668141.jpg");
+height: 70%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+padding-left: 90px;
+padding-top: 100px;
+padding-right: 40px;
+
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-top: -140px;
+    margin-right: 10px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+
+
+
+
+
+.offer{
+
+background-color: white;
+height: 40px;
+width: 280px;
+margin-top: -425px;
+float: right;
+opacity: 0.8;
+color: #999900;
+padding-left: 10px;
+padding-top: 10px;
+}
+
+.offer1{
+
+background-color: #999900;
+height: 55px;
+width: 280px;
+margin-top: -365px;
+float: right;
+opacity: 0.8;
+color: white;
+padding-left: 10px;
+}
+
+#spacing1{
+height:50px;
+background-color:#fffe76;
+}
+
+#spacing2{
+height:50px;
+background-color:#999900;
+}
+
+
+@media only screen and (max-width:828px) {
+  /* For mobile phones: */
+ .new h1{
+font-style: italic;
+font-size: 100px;
+opacity: 0.7;
+
+}
+
+
+ 
+ body{
+ margin: none;
+ 
+ 
+ }
+ 
+ .head-img{
+
+padding-left: 30px;
+
+
+}
+ 
+
+	
+table{
+
+margin-top: -400px;
+width:100%;
+margin-left:auto; 
+margin-right:auto;
+
+
+
+}
+
+
+}
+
+@media only screen and (max-width:708px) {
+table, th, tr{
+display: block;
+
+}
+
+table{
+margin-top: -500px;
+width:100%;
+margin-left:30%; 
+
+}
+
+#spacing1{
+margin-top: 2500px;
+
+
+}
+
+.maintitle{
+
+font-size: 40px;
+margin-top:100px;
+margin-left: 50px;
+
+}
+
+
+}
+ 
+
+/* ------------------------------------------------------------- */
+
+
+.hamburger{
+  background:none;
+  position:absolute; 
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.8em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  height: 50px;
+}
+.cross{
+  background:none;
+ position:absolute; 
+  top:0px; 
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+  height: 50px;
+}
+.menu{z-index:1000000; 
+font-weight:bold; 
+font-size:0.8em; 
+width:20%; 
+background:#fff;  
+position:absolute; 
+text-align:center; 
+font-size:12px;
+height: 305px;
+right:0;
+opacity: 0.9;
+color: #ffd11a;
+border-bottom: #ffd11a 12px solid;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+}
+
+
+
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none; height: 30px;  right:0;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid; height: 30px;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+
+.menu ul li a { 
+
+margin: 0px; 
+color:#ffd11a;
+}
+
+.menu ul li a:hover {  
+color: #ffd11a; 
+text-decoration:none;
+}
+
+.menu a{
+	text-decoration:none;
+    color: #999900;
+	}
+.menu a:hover{
+	text-decoration:none;
+	color: #ffd11a;
+	}
+
+
+
